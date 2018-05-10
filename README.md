@@ -207,7 +207,7 @@ class InventoryList {
               Product
             </th>
           </tr>
-          // We should should something for the null case here if there's
+          // We should show something for the null case here if there's
           // nothing in the data inventory
           {Object.keys(this.data.inventory).map(itemId => (
               <tr key={i}>
@@ -432,7 +432,7 @@ assert(date1 === '1/6/2017');
 > George Bernard Shaw
 
 ### TODO comments should be tracked
-TODO comments are great for letting you and your fellow engineers that something
+TODO comments are great for letting you and your fellow engineers know that something
 needs to be fixed later. Sometimes you gotta ship code and wait to fix it
 later. But eventually you'll have to clean it up! That's why you should track it
 and give a corresponding ID from your issue tracking system so you can schedule
